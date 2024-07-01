@@ -1,0 +1,17 @@
+remote_theme: WildCodeSchool/workshops-jekyll-theme
+
+titles_from_headings:
+  enabled: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+style: dev
+title: JWT - refresh token
+description: "How to implement a refresh token with jwt"
+show_clone: false
+show_toc: true
+lang: en
