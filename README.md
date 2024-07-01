@@ -226,7 +226,7 @@ Inspect the given code, if you don't understand it call your trainer !
 },
 ```
 
-# The final word
+## The final word
 
 We were able to set up a refresh token system to keep an active connection even when we refresh our application. 
 
