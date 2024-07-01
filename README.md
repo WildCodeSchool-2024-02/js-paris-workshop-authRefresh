@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 - Git clone this [project](https://github.com/WildCodeSchool-2024-02/2023-09-JS-Paris-jobApp)
 - Switch to the authorization branch `git checkout authorization`
@@ -7,13 +7,13 @@
 - Run `npm run db:migrate`
 - Run `npm run dev:server`
 
-# Your mission
+## Your mission
 
 The objective of this workshop is to set up a refresh token system to keep the connection active when refreshing your react application
 
 ## Step 1 : server configuration
 
-### cookie setup
+### cookie setup
 
 We must set up the cookie-parser middleware to allow us to read the cookies sent to the server
 
