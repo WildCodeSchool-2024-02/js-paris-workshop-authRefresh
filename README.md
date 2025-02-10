@@ -68,7 +68,7 @@ const refreshToken = jwt.sign(
 res
 .cookie("refreshToken", refreshToken, {
   httpOnly: true,
-  sameSite: "none",
+  sameSite: "Lax",
 })
 .header("Authorization", token)
 .json(user);
